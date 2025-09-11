@@ -57,7 +57,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 ## Project Workflow
 
 1. **Import libraries** (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn).  
-2. **Load dataset** (`creditcard.csv`).  
+2. **Load dataset** [`creditcardFraudDetection.csv`  ](https://media.geeksforgeeks.org/wp-content/uploads/20240904104950/creditcard.csv).  
 3. **Exploratory Data Analysis (EDA)**  
    - Class imbalance check  
    - Distribution of transaction amounts  
