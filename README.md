@@ -29,7 +29,7 @@ Key challenge: **severe class imbalance** (fraudulent transactions are only a sm
 
 ## Dataset
 
-- **File**: `creditcard.csv`  
+- **File**: [`creditcardFraudDetection.csv`  ](https://media.geeksforgeeks.org/wp-content/uploads/20240904104950/creditcard.csv)
 - **Size**: ~284,807 transactions  
 - **Features**:  
   - `Time`: seconds since the first transaction  
@@ -96,7 +96,7 @@ The model achieves:
 
 ## How to Run
 
-1. Download `creditcard.csv` (dataset).  
+1. Download [`creditcardFraudDetection.csv`  ](https://media.geeksforgeeks.org/wp-content/uploads/20240904104950/creditcard.csv) (dataset).  
 2. Open the Jupyter Notebook:  
 
 ```bash
