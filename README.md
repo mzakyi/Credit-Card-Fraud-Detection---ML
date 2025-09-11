@@ -88,9 +88,20 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 ## Results
 
 The model achieves:  
-- **High precision** → very few false positives  
-- **Moderate recall** → some fraudulent cases are missed  
-- **Near-perfect accuracy** → less informative due to imbalance  
+
+Precision: When the model predicted "fraud", it was correct 98.73% of the time.
+
+- **High precision** → very few false positives
+  
+Recall: Out of all actual fraud cases, the model detected 79.59%. This shows how well it catches real frauds. A lower recall means some frauds were missed (false negatives).
+- **Moderate recall** → some fraudulent cases are missed
+
+- **Near-perfect accuracy** → less informative due to imbalance 
+
+Accuracy, Out of all predictions, 99.96% were correct. However, in imbalanced datasets (like fraud detection), accuracy can be misleading i.e. a model that predicts everything as "not fraud" will still have high accuracy.
+  
+F1-Score: A balance between precision and recall. 88.14% is strong and shows the model handles both catching fraud and avoiding false alarms well.
+
 
 ---
 
